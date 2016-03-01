@@ -19,8 +19,10 @@
     }
   ],
   "minimum-stability": "dev",
+  "prefer-stable": true,
   "require": {
-    "yiisoft/yii2": "~2.0"
+    "yiisoft/yii2": "~2.0",
+    "creocoder/yii2-nested-sets": "*"
   },
   "autoload": {
     "psr-4": {
