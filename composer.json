@@ -1,0 +1,33 @@
+{
+  "name": "validvalue/geo",
+  "description": "Geo object module for Yii2",
+  "keywords": [
+    "yii2",
+    "geo",
+    "validvalue"
+  ],
+  "type": "yii2-extension",
+  "license": "MIT",
+  "support": {
+    "source": "https://github.com/validvalue/geo"
+  },
+  "authors": [
+    {
+      "name": "Pavel Aleksandrov",
+      "email": "inblank@yandex.ru",
+      "homepage": "http://validvalue.ru"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "yiisoft/yii2": "~2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "validvalue\\geo\\": ""
+    }
+  },
+  "extra": {
+    "bootstrap": "validvalue\\geo\\Bootstrap"
+  }
+}
