@@ -1,5 +1,5 @@
 {
-  "name": "validvalue/geo",
+  "name": "validvalue/yii2-geo",
   "description": "Geo object module for Yii2",
   "keywords": [
     "yii2",
@@ -9,7 +9,7 @@
   "type": "yii2-extension",
   "license": "MIT",
   "support": {
-    "source": "https://github.com/validvalue/geo"
+    "source": "https://github.com/validvalue/yii2-geo"
   },
   "authors": [
     {
