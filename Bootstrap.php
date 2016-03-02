@@ -34,7 +34,9 @@ class Bootstrap implements yii\base\BootstrapInterface
                 $modelName = is_array($definition) ? $definition['class'] : $definition;
                 $module->modelMap[$name] = $modelName;
             }
-            Geo::$defaultGeo = $module->defaultGeo;
+            if (!empty($module->defaultGeo)) {
+                Geo::$defaultGeo = $module->defaultGeo;
+            }
             if ($app instanceof ConsoleApplication) {
                 $module->controllerNamespace = 'validvalue\geo\commands';
             } else {

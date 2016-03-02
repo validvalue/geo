@@ -35,5 +35,5 @@ class Module extends BaseModule
      * MUST BE ARE CITY IDENTIFIER
      * @var int
      */
-    public $defaultGeo = 2097; // 2097 - Moscow
+    public $defaultGeo;
 }

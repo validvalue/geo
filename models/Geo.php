@@ -32,9 +32,10 @@ class Geo extends \yii\db\ActiveRecord
     static $ipCache = [];
     /**
      * Default geo object if location not found
+     * MUST BE ARE CITY IDENTIFIER
      * @var Geo
      */
-    static $defaultGeo;
+    static $defaultGeo = 2097; // 2097 - Moscow
 
     /**
      * @inheritdoc
